@@ -1,0 +1,127 @@
+CRITICAL - 2022-02-09 00:21:05 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\c4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\c4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('pass', 'pass', 'deep123', Array, Array)
+#2 C:\xampp\htdocs\c4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\c4\app\Controllers\Pages.php(41): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\Pages->insert()
+#5 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\c4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-09 00:23:05 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\c4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\c4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('pass', 'pass', 'deep123', Array, Array)
+#2 C:\xampp\htdocs\c4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\c4\app\Controllers\Pages.php(41): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\Pages->insert()
+#5 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\c4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-09 00:24:04 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\c4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\c4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('pass', 'pass', 'deep123', Array, Array)
+#2 C:\xampp\htdocs\c4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\c4\app\Controllers\Pages.php(41): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\Pages->insert()
+#5 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\c4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-09 00:24:34 --> required  is not a valid rule.
+#0 C:\xampp\htdocs\c4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required ')
+#1 C:\xampp\htdocs\c4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('pass', 'pass', 'deep123', Array, Array)
+#2 C:\xampp\htdocs\c4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\c4\app\Controllers\Pages.php(41): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\Pages->insert()
+#5 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\c4\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-09 22:23:44 --> Invalid file: register.php
+#0 C:\xampp\htdocs\c4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+#1 C:\xampp\htdocs\c4\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#2 C:\xampp\htdocs\c4\app\Controllers\Pages.php(52): view('register', Array)
+#3 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\Pages->insert()
+#4 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-09 22:24:10 --> Invalid file: register.php
+#0 C:\xampp\htdocs\c4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+#1 C:\xampp\htdocs\c4\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#2 C:\xampp\htdocs\c4\app\Controllers\Pages.php(52): view('register', Array)
+#3 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\Pages->insert()
+#4 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-09 22:24:30 --> Invalid file: register.php
+#0 C:\xampp\htdocs\c4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+#1 C:\xampp\htdocs\c4\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#2 C:\xampp\htdocs\c4\app\Controllers\Pages.php(52): view('register', Array)
+#3 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\Pages->insert()
+#4 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-09 22:25:04 --> Invalid file: register.php
+#0 C:\xampp\htdocs\c4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+#1 C:\xampp\htdocs\c4\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#2 C:\xampp\htdocs\c4\app\Controllers\Pages.php(52): view('register', Array)
+#3 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\Pages->insert()
+#4 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-09 22:25:48 --> Invalid file: register.php
+#0 C:\xampp\htdocs\c4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+#1 C:\xampp\htdocs\c4\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#2 C:\xampp\htdocs\c4\app\Controllers\Pages.php(52): view('register', Array)
+#3 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\Pages->insert()
+#4 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-09 22:30:51 --> Invalid file: register.php
+#0 C:\xampp\htdocs\c4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+#1 C:\xampp\htdocs\c4\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#2 C:\xampp\htdocs\c4\app\Controllers\Pages.php(52): view('register', Array)
+#3 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\Pages->insert()
+#4 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\c4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-09 23:41:42 --> Array to string conversion
+#0 C:\xampp\htdocs\c4\app\Views\Pages\register.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\c4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c4\system\Common.php(1089): CodeIgniter\View\View->render('Pages/register', Array, true)
+#4 C:\xampp\htdocs\c4\app\Controllers\Pages.php(52): view('Pages/register', Array)
+#5 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\Pages->insert()
+#6 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-09 23:41:59 --> Array to string conversion
+#0 C:\xampp\htdocs\c4\app\Views\Pages\register.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\c4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c4\system\Common.php(1089): CodeIgniter\View\View->render('Pages/register', Array, true)
+#4 C:\xampp\htdocs\c4\app\Controllers\Pages.php(52): view('Pages/register', Array)
+#5 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\Pages->insert()
+#6 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-09 23:42:50 --> Array to string conversion
+#0 C:\xampp\htdocs\c4\app\Views\Pages\register.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\c4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c4\system\Common.php(1089): CodeIgniter\View\View->render('Pages/register', Array, true)
+#4 C:\xampp\htdocs\c4\app\Controllers\Pages.php(52): view('Pages/register', Array)
+#5 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\Pages->insert()
+#6 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

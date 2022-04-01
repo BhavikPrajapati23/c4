@@ -1,0 +1,28 @@
+CRITICAL - 2022-02-04 00:46:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\c4\app\Views\Pages\edit.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\c4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c4\system\Common.php(1089): CodeIgniter\View\View->render('Pages/edit', Array, true)
+#4 C:\xampp\htdocs\c4\app\Controllers\Pages.php(64): view('Pages/edit', Array)
+#5 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\Pages->edit('Pages', 'update')
+#6 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-04 02:26:42 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\c4\app\Views\Pages\edit.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\c4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\c4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\c4\system\Common.php(1089): CodeIgniter\View\View->render('Pages/edit', Array, true)
+#4 C:\xampp\htdocs\c4\app\Controllers\Pages.php(64): view('Pages/edit', Array)
+#5 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\Pages->edit('Pages', 'update')
+#6 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\c4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-04 02:32:06 --> Cannot use object of type App\Models\User as array
+#0 C:\xampp\htdocs\c4\system\CodeIgniter.php(825): App\Controllers\Pages->update()
+#1 C:\xampp\htdocs\c4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#2 C:\xampp\htdocs\c4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\c4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
